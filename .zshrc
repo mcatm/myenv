@@ -30,4 +30,6 @@ export NVM_DIR="$HOME/.nvm"
 source "$HOME/google-cloud-sdk/path.zsh.inc"
 source "$HOME/google-cloud-sdk/completion.zsh.inc"
 
+prompt_left="-[%h]%(1j,(%j),)%{%B%}%#%{%b%} "
+
 #source ~/.git-completion.zsh
