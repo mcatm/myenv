@@ -2,6 +2,9 @@
 autoload -Uz compinit
 compinit
 
+# Language
+export LANG=ja_JP.UTF-8
+
 # PATH
 export PATH="$HOME/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/local/bin"
 
@@ -39,9 +42,10 @@ setopt auto_cd # ディレクトリを指定しただけで勝手にcd
 setopt auto_pushd # ディレクトリの移動履歴
 setopt correct # コマンドのスペルチェック
 
+# Prompt
+PROMPT="%m:%n%% "
+RPROMPT="[%~]"
 
-
-# prompt_left="-[%h]%(1j,(%j),)%{%B%}%#%{%b%} "
 
 # source "$HOME/.git-completion.zsh"
 # source "$HOME/.git-prompt.sh"
