@@ -37,7 +37,7 @@ export NVM_DIR="$HOME/.nvm"
 source "$HOME/google-cloud-sdk/path.zsh.inc"
 source "$HOME/google-cloud-sdk/completion.zsh.inc"
 
-
+# setopt
 setopt auto_cd # ディレクトリを指定しただけで勝手にcd
 setopt auto_pushd # ディレクトリの移動履歴
 setopt correct # コマンドのスペルチェック
@@ -49,7 +49,3 @@ RPROMPT="[%~]"
 
 # source "$HOME/.git-completion.zsh"
 # source "$HOME/.git-prompt.sh"
-
-# export GIT_PS1_SHOWUPSTREAM=1
-# export GIT_PS1_SHOWUNTRACKEDFILES=1
-# export GIT_PS1_SHOWDIRTYSTATE=1
