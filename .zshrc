@@ -1,3 +1,7 @@
+# compinit
+autoload -Uz compinit
+compinit
+
 # PATH
 export PATH="$HOME/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/local/bin"
 
@@ -30,6 +34,18 @@ export NVM_DIR="$HOME/.nvm"
 source "$HOME/google-cloud-sdk/path.zsh.inc"
 source "$HOME/google-cloud-sdk/completion.zsh.inc"
 
-prompt_left="-[%h]%(1j,(%j),)%{%B%}%#%{%b%} "
 
-#source ~/.git-completion.zsh
+setopt auto_cd # ディレクトリを指定しただけで勝手にcd
+setopt auto_pushd # ディレクトリの移動履歴
+setopt correct # コマンドのスペルチェック
+
+
+
+# prompt_left="-[%h]%(1j,(%j),)%{%B%}%#%{%b%} "
+
+# source "$HOME/.git-completion.zsh"
+# source "$HOME/.git-prompt.sh"
+
+# export GIT_PS1_SHOWUPSTREAM=1
+# export GIT_PS1_SHOWUNTRACKEDFILES=1
+# export GIT_PS1_SHOWDIRTYSTATE=1
