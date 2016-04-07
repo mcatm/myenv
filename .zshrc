@@ -27,7 +27,7 @@ export PATH="$PATH:./node_modules/.bin"
 ARCHFLAGS='-arch x86_64'
 
 # perlbrew
-source ~/.perlbrew/etc/bashrc
+# source ~/.perlbrew/etc/bashrc
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
