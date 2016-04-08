@@ -1,4 +1,4 @@
-# myzsh
+# myenv
 
 ```bash
 $ cd ~
