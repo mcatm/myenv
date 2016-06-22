@@ -1,3 +1,7 @@
+# compinit
+autoload -Uz compinit
+compinit
+
 # PATH
 export PATH="$HOME/local/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin"
 
