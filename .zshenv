@@ -1,5 +1,8 @@
 # PATH
-export PATH="$HOME/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/local/bin"
+export PATH="$HOME/local/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin"
+
+## PATH > php7
+export PATH="$(brew --prefix homebrew/php/php70)/bin:$PATH"
 
 ## PATH > x11
 export PATH="/opt/X11/bin:/usr/X11/bin:$PATH"
